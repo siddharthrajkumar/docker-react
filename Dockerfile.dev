@@ -1,0 +1,12 @@
+FROM node:16-alpine
+
+WORKDIR '/app'
+
+COPY package.json .
+
+RUN npm install
+
+# this command can technically be ignored while using docker volumes in the docker run command or the docker-compose file.
+COPY . .
+
+CMD ["npm", "run", "start"]
