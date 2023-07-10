@@ -1,21 +1,21 @@
-import logo from './logo.svg';
+import luffy from './luffy.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={luffy} className="App-logo" alt="logo" />
         <p>
-          Hi there!
+          Monkey D Luffy
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://en.wikipedia.org/wiki/One_Piece"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Gomu Gomu Noooooooo!
         </a>
       </header>
     </div>
