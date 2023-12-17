@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gomu Gomu Noooooo!
+          Gomu Gomu Noooooo000!
         </a>
       </header>
     </div>
